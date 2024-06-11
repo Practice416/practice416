@@ -1,0 +1,47 @@
+Hi Likhitha,
+
+Thank you for reaching out! I appreciate your willingness to refer me. Here are the details you requested:
+
+Name: Salman Mulla
+Gender: Male
+Role and Tech: Linux System Administrator And AWS cloud
+Exp: Fresher
+Mobile No.: 8123488396
+Email ID: mullasalman416@gmail.com
+Preferred Location: Bangalore
+Have you applied before to Accenture: Yes
+
+I've also attached my resume for your reference.
+
+Thank you once again for your support and assistance. Please let me know ma'am if you need any additional information.
+
+Best regards,
+Salman Mulla
+
+
+
+#!/bin/bash
+
+<< disclaimer
+This is just for infotainment purpose
+disclaimer
+
+# This is function definition
+
+function is_loyal() {
+read -p "$1 ne mud ke kise dekha: " bandi
+read -p "$1 ka pyaar %" pyaar
+
+if [[ $bandi == "daya bhabhi"  ]];
+then
+	echo "$1 is loyal"
+elif [[ $pyaar -ge 100 ]];
+then
+	echo "$1 is loyal"
+else
+	echo "$1 is not loyal"
+fi
+}
+
+# This is function call
+is_loyal "tom"
